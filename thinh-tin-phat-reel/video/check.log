@@ -1,0 +1,57 @@
+
+> check
+> npx --yes hyperframes@0.8.163 check
+
+[hyperframes] Could not persist telemetry config: ENOENT: no such file or directory, mkdir '/home/agent/.hyperframes'. Canary cohort assignment will not be stable across runs.
+
+  Hyperframes collects anonymous usage data to improve the tool.
+  File paths and composition content are never collected.
+  If you sign in to HeyGen, your account (email, or username) is linked to your usage.
+
+  Disable anytime: hyperframes telemetry disable
+
+[SystemMemory] cgroup memory limit detected: 32768 MiB. It governs memory-adaptive render behaviour instead of host RAM.
+◆  Checking video
+⚠  Check report was not recorded: ENOENT: no such file or directory, mkdir '/home/agent/.cache/hyperframes/history/38216b6c-c06c-43bb-b3f8-9bbc007fd4f3'
+[hyperframes] browserGpuMode probe → software (WebGL renderer vendor="Google Inc. (Mesa)" renderer="ANGLE (Mesa, llvmpipe (LLVM 19.1.7 256 bits), OpenGL ES 3.2)")
+
+Lint
+  ⚠ timeline_track_too_dense: Track 0 has 6 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.
+    /workspace/Media/thinh-tin-phat-reel/video/index.html [data-composition-id] t=0s
+    Fix: Move coherent scene groups into separate .html files under compositions/ and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate.
+  ⚠ nested_structure_needs_subcomposition: <section id="s0"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.
+    /workspace/Media/thinh-tin-phat-reel/video/index.html #s0 t=0s
+    Fix: Move <section id="s0"> and its contents into a sub-composition file and mount it with data-composition-src.
+  ⚠ nested_structure_needs_subcomposition: <section id="s1"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.
+    /workspace/Media/thinh-tin-phat-reel/video/index.html #s1 t=0s
+    Fix: Move <section id="s1"> and its contents into a sub-composition file and mount it with data-composition-src.
+  ⚠ nested_structure_needs_subcomposition: <section id="s2"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.
+    /workspace/Media/thinh-tin-phat-reel/video/index.html #s2 t=0s
+    Fix: Move <section id="s2"> and its contents into a sub-composition file and mount it with data-composition-src.
+  ⚠ nested_structure_needs_subcomposition: <section id="s3"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.
+    /workspace/Media/thinh-tin-phat-reel/video/index.html #s3 t=0s
+    Fix: Move <section id="s3"> and its contents into a sub-composition file and mount it with data-composition-src.
+  ⚠ nested_structure_needs_subcomposition: <section id="s4"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.
+    /workspace/Media/thinh-tin-phat-reel/video/index.html #s4 t=0s
+    Fix: Move <section id="s4"> and its contents into a sub-composition file and mount it with data-composition-src.
+  ⚠ nested_structure_needs_subcomposition: <section id="s5"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.
+    /workspace/Media/thinh-tin-phat-reel/video/index.html #s5 t=0s
+    Fix: Move <section id="s5"> and its contents into a sub-composition file and mount it with data-composition-src.
+  0 error(s), 7 warning(s), 0 info(s)
+
+Runtime
+  ◇ 0 errors, 0 warnings
+
+Layout
+  ◇ 0 issues across 9 sample(s)
+
+Motion
+  ◇ 0 errors, 0 warnings
+
+Contrast
+  ◇ 30/30 text checks pass WCAG AA
+
+Snapshots
+  ◇ disabled
+
+◇  Check passed

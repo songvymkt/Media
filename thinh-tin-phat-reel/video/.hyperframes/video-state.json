@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "historyId": null,
+  "currentRevision": null,
+  "pendingChanges": true,
+  "files": {},
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "52d409ef-9cd0-4a84-9fa9-e7c1cc735e78",
+      "completedAt": 1792126149887,
+      "output": "/workspace/Media/thinh-tin-phat-reel/Thinh-Tin-Phat-Reel-40s.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}
